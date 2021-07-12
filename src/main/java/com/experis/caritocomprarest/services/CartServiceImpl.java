@@ -5,7 +5,6 @@ import com.experis.caritocomprarest.data.Product;
 import com.experis.caritocomprarest.exceptions.NotAddedException;
 import com.experis.caritocomprarest.repositories.ProductRepository;
 import com.experis.caritocomprarest.web.DTOS.ProductDto;
-import com.experis.caritocomprarest.web.mappers.ProductMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -20,7 +19,6 @@ public class CartServiceImpl implements CartService {
     private Cart cart =  new Cart();
 
     private final ProductRepository productRepository;
-    private final ProductMapper productMapper;
 
     @Override
     public void addProductToCart(ProductDto product) {

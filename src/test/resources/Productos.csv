@@ -1,0 +1,9 @@
+nombre,marca,precio,cantidad en stock,estado,porcentaje descuento
+,marca,1,1,Nuevo,1
+Producto,,1,1,Nuevo,1
+Producto,marca,,1,Nuevo,1
+Producto,marca,1,,Nuevo,1
+Producto,marca,1,1,,1
+Producto,marca,1,1,Nuevo,
+Producto,marca,1,1,Nuevo,1
+Producto,marca,2,2,Nuevo,2

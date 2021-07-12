@@ -1,8 +1,7 @@
 package com.experis.caritocomprarest.web.DTOS;
 
 import com.experis.caritocomprarest.data.ProductStatusEnum;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.Column;
 import javax.persistence.EnumType;
@@ -11,6 +10,9 @@ import java.math.BigDecimal;
 
 @Getter
 @Setter
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class ProductDto {
 
     private Long id;
